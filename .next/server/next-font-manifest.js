@@ -1,0 +1,13 @@
+self.__NEXT_FONT_MANIFEST={
+  "pages": {},
+  "app": {
+    "/home/jramos/Documents/pttmv3-dir/pttmv3/node_modules/@next/font/google/target.css?{\"path\":\"app/components/navbar/navbar.comp.tsx\",\"import\":\"Oleo_Script\",\"arguments\":[{\"weight\":\"700\",\"subsets\":[\"latin\"]}],\"variableName\":\"oleoScript\"}": [
+      "static/media/3798d1c3fb8fe004-s.p.woff2"
+    ],
+    "/home/jramos/Documents/pttmv3-dir/pttmv3/node_modules/@next/font/google/target.css?{\"path\":\"app/components/navbar/navbar.comp.tsx\",\"import\":\"Luckiest_Guy\",\"arguments\":[{\"weight\":\"400\",\"subsets\":[\"latin\"]}],\"variableName\":\"luckietGuy\"}": [
+      "static/media/3fea8a6f018bc4f5-s.p.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

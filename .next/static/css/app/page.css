@@ -1,0 +1,39 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[5].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[2].oneOf[5].use[2]!./node_modules/@next/font/google/target.css?{"path":"app/components/navbar/navbar.comp.tsx","import":"Oleo_Script","arguments":[{"weight":"700","subsets":["latin"]}],"variableName":"oleoScript"} ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* latin-ext */
+@font-face {
+  font-family: '__Oleo_Script_676e6c';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/cd85d74057e2eddd-s.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Oleo_Script_676e6c';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/3798d1c3fb8fe004-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Oleo_Script_Fallback_676e6c';src: local("Arial");ascent-override: 117.86%;descent-override: 44.49%;line-gap-override: 0.00%;size-adjust: 85.18%
+}.__className_676e6c {font-family: '__Oleo_Script_676e6c', '__Oleo_Script_Fallback_676e6c';font-weight: 700;font-style: normal
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[5].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[2].oneOf[5].use[2]!./node_modules/@next/font/google/target.css?{"path":"app/components/navbar/navbar.comp.tsx","import":"Luckiest_Guy","arguments":[{"weight":"400","subsets":["latin"]}],"variableName":"luckietGuy"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* latin */
+@font-face {
+  font-family: '__Luckiest_Guy_71c594';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/3fea8a6f018bc4f5-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Luckiest_Guy_Fallback_71c594';src: local("Arial");ascent-override: 60.77%;descent-override: 25.66%;line-gap-override: 0.00%;size-adjust: 115.71%
+}.__className_71c594 {font-family: '__Luckiest_Guy_71c594', '__Luckiest_Guy_Fallback_71c594';font-weight: 400;font-style: normal
+}
+

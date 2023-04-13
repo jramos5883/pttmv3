@@ -1,0 +1,11 @@
+/* I want to adjust the speed and transition between slides in the carousel,
+will fine tune before diployment. */
+
+.carousel-container {
+  background-color: black; /* You can use any color that matches your design */
+  position: relative;
+  overflow: hidden;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+}

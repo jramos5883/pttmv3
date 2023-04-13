@@ -1,0 +1,214 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./app/styles/global.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-image: url("https://freesvg.org/img/1546122480.png"); */
+  background-image: url("https://freesvg.org/img/weltraumsterneplanetenastronautspacethemecollage1546122480zumausmalen.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: 1.5rem;
+}
+
+.text-indent {
+  text-indent: 30px;
+  line-height: 1.5;
+}
+
+/* homepage styling */
+
+.home-container {
+  background-color: white;
+  opacity: 0.9;
+  color: black;
+  padding: 2%;
+}
+
+.home-header {
+  text-align: center;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.home-intro {
+  padding: 2%;
+  opacity: 1;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.p3 {
+  padding-left: 4%;
+  margin-bottom: 1%;
+}
+
+/* aboutus styling */
+
+.aboutus-pic-container {
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+}
+
+.aboutus-content-container {
+  background-color: white;
+  opacity: 0.9;
+  color: black;
+  padding: 2%;
+}
+
+.aboutus-header {
+  text-align: center;
+  justify-content: center;
+}
+
+.aboutus-content {
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+/* menu styling */
+
+.menu-container {
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+}
+/* location styling */
+
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./app/styles/navbar.styles.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  background-color: rgb(234, 234, 234);
+}
+
+.nav-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-link {
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.poke-header {
+  font-size: 2rem;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./app/styles/carousel.styles.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+/* I want to adjust the speed and transition between slides in the carousel,
+will fine tune before diployment. */
+
+.carousel-container {
+  background-color: black; /* You can use any color that matches your design */
+  position: relative;
+  overflow: hidden;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./app/styles/footer.styles.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  background-color: rgb(234, 234, 234);
+}
+
+.media-container {
+  margin-top: 15px;
+}
+
+i {
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+

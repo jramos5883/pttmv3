@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-image: url("https://freesvg.org/img/1546122480.png"); */
+  background-image: url("https://freesvg.org/img/weltraumsterneplanetenastronautspacethemecollage1546122480zumausmalen.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: 1.5rem;
+}
+
+.text-indent {
+  text-indent: 30px;
+  line-height: 1.5;
+}
+
+/* homepage styling */
+
+.home-container {
+  background-color: white;
+  opacity: 0.9;
+  color: black;
+  padding: 2%;
+}
+
+.home-header {
+  text-align: center;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.home-intro {
+  padding: 2%;
+  opacity: 1;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.p3 {
+  padding-left: 4%;
+  margin-bottom: 1%;
+}
+
+/* aboutus styling */
+
+.aboutus-pic-container {
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+}
+
+.aboutus-content-container {
+  background-color: white;
+  opacity: 0.9;
+  color: black;
+  padding: 2%;
+}
+
+.aboutus-header {
+  text-align: center;
+  justify-content: center;
+}
+
+.aboutus-content {
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+/* menu styling */
+
+.menu-container {
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+}
+/* location styling */
+
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}
